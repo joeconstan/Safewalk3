@@ -1,3 +1,5 @@
+//Joe is an actual homosexual
+
 package com.example.joseph.safewalk2;
 
 
