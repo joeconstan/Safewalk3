@@ -16,8 +16,10 @@
             </intent-filter>
         </activity>
 
-    <activity android:name=".Details">
-        </activity>
+    <activity android:name=".Details"></activity>
+    <activity android:name=".LocationDeliverous"></activity>
+
+
     </application>
 
 </manifest>
