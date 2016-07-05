@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#060910"
+    >
+
+
+
+    <Button
+        android:layout_width="300sp"
+        android:layout_height="40sp"
+        android:text="Use Location"
+        android:id="@+id/locationButton"
+        android:layout_marginTop="150sp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/buttons"
+        />
+
+    <Button
+        android:layout_width="300sp"
+        android:layout_height="40sp"
+        android:text="Enter Address"
+        android:id="@+id/addressButton"
+        android:layout_below="@+id/locationButton"
+        android:layout_marginTop="30sp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/buttons"
+        />
+
+    <Button
+        android:layout_width="300sp"
+        android:layout_height="40sp"
+        android:text="Select Building"
+        android:id="@+id/builingButton"
+        android:layout_below="@+id/addressButton"
+        android:layout_marginTop="30sp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/buttons"
+        />
+
+
+
+
+</RelativeLayout>
