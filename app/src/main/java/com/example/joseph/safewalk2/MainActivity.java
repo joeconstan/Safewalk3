@@ -6,7 +6,7 @@ import android.view.View;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.Button;
-
+//ji
 public class MainActivity extends AppCompatActivity {
 
     @Override
