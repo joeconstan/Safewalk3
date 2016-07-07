@@ -15,6 +15,7 @@ public class Details extends AppCompatActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.details);
 
+        //Enter address button
         Button addressButton = (Button) findViewById(R.id.addressButton);
         addressButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -24,6 +25,15 @@ public class Details extends AppCompatActivity{
             }
         });
 
+        //Select building button
+        Button buildingButton = (Button) findViewById(R.id.builingButton);
+        buildingButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent buildous = new Intent(v.getContext(), buildous.class);
+                startActivity(buildous);
+            }
+        });
     }
 
 }
