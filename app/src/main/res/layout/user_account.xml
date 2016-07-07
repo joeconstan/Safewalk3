@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#060910"
+    >
+
+
+    <!--change to "new user"? -->
+    <Button
+        android:layout_width="100sp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttons"
+        android:text="Register"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="30sp"
+        android:layout_marginRight="20sp"
+        android:id="@+id/registerButton"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="First Name"
+        android:textColorHint="#FFFFFF"
+        android:textColor="#FFFFFF"
+        android:id="@+id/firstName"
+        android:layout_marginTop="100sp"
+        android:layout_marginLeft="30sp"
+
+
+        />
+
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Last Name"
+        android:textColorHint="#FFFFFF"
+        android:textColor="#FFFFFF"
+        android:id="@+id/lastName"
+        android:layout_marginTop="200sp"
+        android:layout_marginLeft="30sp"
+
+
+        />
+
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Phone Number"
+        android:textColorHint="#FFFFFF"
+        android:textColor="#FFFFFF"
+        android:id="@+id/phoneNumber"
+        android:layout_marginTop="300sp"
+        android:layout_marginLeft="30sp"
+
+
+        />
+
+
+
+
+
+</RelativeLayout>

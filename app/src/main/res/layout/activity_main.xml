@@ -21,14 +21,44 @@ android:id="@+id/layout"
     />
 
 
-<Button
-    android:layout_width="100sp"
-    android:layout_height="wrap_content"
-    android:text="Request Walk"
-    android:background="@drawable/buttons"
-    android:textSize="12sp"
-    android:id="@+id/walkButton"
-    android:layout_marginBottom="69dp"
-    android:layout_alignParentBottom="true"
-    android:layout_centerHorizontal="true" />
+    <Button
+        android:layout_width="100sp"
+        android:layout_height="wrap_content"
+        android:text="Request Walk"
+        android:background="@drawable/buttons"
+        android:textSize="12sp"
+        android:id="@+id/walkButton"
+        android:layout_marginBottom="68sp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="45sp"
+  />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OR"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:id="@+id/orText"
+        android:layout_toRightOf="@id/walkButton"
+        android:layout_marginBottom="82sp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="9sp"
+
+        />
+
+    <Button
+        android:layout_width="100sp"
+        android:layout_height="wrap_content"
+        android:text="Sign in"
+        android:background="@drawable/buttons"
+        android:id="@+id/signinButton"
+        android:layout_alignTop="@+id/walkButton"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="68sp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="45sp"
+        />
+
+
 </RelativeLayout>

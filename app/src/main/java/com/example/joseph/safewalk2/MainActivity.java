@@ -1,4 +1,4 @@
-//Joe is an actual homosexual
+
 
 package com.example.joseph.safewalk2;
 
@@ -20,10 +20,21 @@ public class MainActivity extends AppCompatActivity {
         requestWalk.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(v.getContext(), Details.class); //rename
+                Intent intent = new Intent(v.getContext(), Details.class); //rename intent
                 startActivity(intent);
             }
         });
+
+
+        Button signinButton = (Button) findViewById(R.id.signinButton);
+        signinButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent3 = new Intent(v.getContext(), UserAccount.class); //rename intent
+                startActivity(intent3);
+            }
+        });
+
 
 
 
