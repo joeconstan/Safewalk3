@@ -30,7 +30,7 @@ public class Details extends AppCompatActivity{
         buildingButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent buildous = new Intent(v.getContext(), buildous.class);
+                Intent buildous = new Intent(v.getContext(), Buildous.class);
                 startActivity(buildous);
             }
         });
