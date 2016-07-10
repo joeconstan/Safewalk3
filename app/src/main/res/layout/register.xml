@@ -5,8 +5,70 @@
     android:background="#060910"
     >
 
-    
 
+    <Button
+        android:layout_width="100sp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttons"
+        android:text="Submit"
+        android:layout_marginTop="425sp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/submitButton"
+        />
+
+
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="First name"
+        android:textColorHint="#FFFFFF"
+        android:textColor="#FFFFFF"
+        android:id="@+id/firstNameRegister"
+        android:layout_marginTop="50sp"
+        android:layout_marginLeft="30sp"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Last Name"
+        android:textColorHint="#FFFFFF"
+        android:textColor="#FFFFFF"
+        android:id="@+id/lastNameRegister"
+        android:layout_marginTop="140sp"
+        android:layout_marginLeft="30sp"
+
+        />
+
+
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:textColorHint="#FFFFFF"
+        android:textColor="#FFFFFF"
+        android:id="@+id/usernameRegister"
+        android:layout_marginTop="230sp"
+        android:layout_marginLeft="30sp"
+
+        />
+
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:textColorHint="#FFFFFF"
+        android:textColor="#FFFFFF"
+        android:id="@+id/passwordRegister"
+        android:layout_marginTop="320sp"
+        android:layout_marginLeft="30sp"
+
+        />
 
 
 
