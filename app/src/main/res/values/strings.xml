@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Safewalk2</string>
+
+    <string-array name="buildingsArray">
+        <item>Asshole</item>
+        <item>Butt Sex</item>
+        <item>Cawks</item>
+    </string-array>
 </resources>
