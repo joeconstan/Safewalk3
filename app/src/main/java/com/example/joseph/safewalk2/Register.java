@@ -20,7 +20,7 @@ public class Register extends AppCompatActivity{
         submitButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //register them first
+                //register them as users first
                 Intent in1 = new Intent(v.getContext(), MainActivity.class); //orrr??
                 startActivity(in1);
                 Context context = getApplicationContext();
