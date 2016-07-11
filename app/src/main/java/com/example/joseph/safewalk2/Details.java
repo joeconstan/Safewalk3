@@ -34,6 +34,18 @@ public class Details extends AppCompatActivity{
                 startActivity(buildous);
             }
         });
+
+
+        Button locationButton = (Button) findViewById(R.id.locationButton);
+        locationButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent ihj = new Intent(v.getContext(), LocationFind.class);
+                startActivity(ihj);
+            }
+        });
+
+
     }
 
 }

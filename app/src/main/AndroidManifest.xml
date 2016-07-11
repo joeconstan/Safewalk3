@@ -17,11 +17,12 @@
             </intent-filter>
         </activity>
 
-    <activity android:name=".Details"></activity>
-    <activity android:name=".LocationDeliverous"></activity>
-    <activity android:name=".UserAccount"></activity>
-    <activity android:name=".Register"></activity>
-    <activity android:name=".Buildous"></activity>
+        <activity android:name=".Details"></activity>
+        <activity android:name=".LocationDeliverous"></activity>
+        <activity android:name=".UserAccount"></activity>
+        <activity android:name=".Register"></activity>
+        <activity android:name=".Buildous"></activity>
+        <activity android:name=".LocationFind"></activity>
 
 
     </application>
