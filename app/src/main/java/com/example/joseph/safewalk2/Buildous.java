@@ -7,15 +7,18 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.Spinner;
 import android.widget.ArrayAdapter;
-import android.widget.Toast;
+import android.widget.Button;
 
 public class Buildous extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        //Declaring shit
         super.onCreate(savedInstanceState);
         setContentView(R.layout.buildous_deliverous);
+        Button sendBuilding = (Button) findViewById(R.id.btnSendBuilding);
 
+        //Setting the values on the spinner
         Spinner spinner = (Spinner) findViewById(R.id.buildingSpinner);
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,
                 R.array.buildingsArray, android.R.layout.simple_spinner_item);
@@ -23,10 +26,12 @@ public class Buildous extends AppCompatActivity {
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spinner.setAdapter(adapter);
 
+        //Checking what's selected on the spinner
         spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                //Toast.makeText(getBaseContext(), parent.getItemAtPosition(position) = " selected", Toast.LENGTH_LONG).show();
+                Object test = parent.getItemAtPosition(position);
+                String test2 = test.toString();
             }
 
             @Override
@@ -34,5 +39,8 @@ public class Buildous extends AppCompatActivity {
 
             }
         });
+
+        //Sending the building
+
     }
 }

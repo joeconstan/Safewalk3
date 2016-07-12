@@ -22,4 +22,12 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="85dp" />
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send Location"
+        android:id="@+id/btnSendBuilding"
+        android:layout_below="@+id/buildingSpinner"
+        android:layout_centerHorizontal="true" />
+
 </RelativeLayout>
