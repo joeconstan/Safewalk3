@@ -1,10 +1,33 @@
 <resources>
-    <string name="app_name">Safewalk2</string>
+    <string name="app_name">Safewalk</string>
 
     <string-array name="buildingsArray">
-        <item>Asshole</item>
-        <item>Butt Sex</item>
-        <item>Cawks</item>
+        <item>CAS</item>
+        <item>COM</item>
+        <item>SED</item>
+        <item>CFA</item>
+        <item>CGS</item>
+        <item>SHA</item>
+        <item>Law Auditorium</item>
+        <item>Questrom</item>
+        <item>Sargent</item>
+        <item>School of Social Work</item>
+        <item>10 Buick Street</item>
+        <item>575 Commonwealth</item>
+        <item>1019 Commonwealth</item>
+        <item>1047 Commonwealth</item>
+        <item>Sleeper</item>
+        <item>Claflin</item>
+        <item>Rich</item>
+        <item>Warren</item>
+        <item>Towers</item>
+        <item>SAO</item>
+        <item>Agganis</item>
+        <item>The Castle</item>
+        <item>GSU</item>
+        <item>Fitrec</item>
+        <item>44 Cummington</item>
+        <item>Psychology</item>
     </string-array>
 
 </resources>

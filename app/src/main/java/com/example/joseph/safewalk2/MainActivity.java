@@ -2,12 +2,9 @@
 
 package com.example.joseph.safewalk2;
 
-import android.Manifest;
-import android.content.pm.PackageManager;
-import android.os.Build;
+
 import android.os.Bundle;
 import android.support.v4.app.ActivityCompat;
-import android.util.Log;
 import android.view.View;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -22,17 +19,6 @@ public class MainActivity extends AppCompatActivity implements ActivityCompat.On
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-
-        if (Build.VERSION.SDK_INT >= 23) {
-            boolean f = checkSelfPermission(Manifest.permission.SEND_SMS) == PackageManager.PERMISSION_GRANTED;
-            if (f)
-                Log.v(TAG, "Permission is granted");
-            else {
-                Log.v(TAG, "Permission not granted");
-                ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.SEND_SMS}, 1);
-            }
-        }
 
 
 
@@ -61,15 +47,6 @@ public class MainActivity extends AppCompatActivity implements ActivityCompat.On
 
 
 
-    }
-
-
-    @Override
-    public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults) {
-        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
-        //if(grantResults[0]== PackageManager.PERMISSION_GRANTED){
-          //  Log.v(TAG,"Permission: "+permissions[0]+ "was "+grantResults[0]);
-       // }
     }
 
 

@@ -19,9 +19,7 @@ public class LocationDeliverous extends AppCompatActivity{
         deliverousSubmitButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //SmsManager smsManager = SmsManager.getDefault();
-                //smsManager.sendTextMessage("+16613421687", null, "sms message", null, null);
-                //needs to request runtime permissions still (marshmallow)
+
             }
         });
     }
