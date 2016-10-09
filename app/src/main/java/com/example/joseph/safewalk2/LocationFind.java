@@ -23,13 +23,13 @@ public class LocationFind extends AppCompatActivity {
         setContentView(R.layout.location_find);
 
         if (Build.VERSION.SDK_INT >= 23) {
-            boolean x = checkSelfPermission(Manifest.permission.ACCESS_COARSE_LOCATION) == PackageManager.PERMISSION_GRANTED;
+            boolean x = checkSelfPermission(Manifest.permission.ACCESS_FINE_LOCATION) == PackageManager.PERMISSION_GRANTED;
 
             if (x)
                 Log.v(TAG, "Permission is granted");
             else {
                 Log.v(TAG, "Permission not granted. requesting...");
-                ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.ACCESS_COARSE_LOCATION}, 1);
+                ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.ACCESS_FINE_LOCATION}, 1);
             }
         }
 

@@ -10,7 +10,7 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.Button;
 
-public class MainActivity extends AppCompatActivity implements ActivityCompat.OnRequestPermissionsResultCallback{
+public class MainActivity extends AppCompatActivity implements ActivityCompat.OnRequestPermissionsResultCallback{ //shouldnt implement this anymore??
 
 
     public static final String TAG = MainActivity.class.getSimpleName();

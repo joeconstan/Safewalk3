@@ -21,6 +21,11 @@ public class Register extends AppCompatActivity{
             @Override
             public void onClick(View v) {
                 //register them as users first
+
+
+
+
+                //toast & redirect
                 Intent in1 = new Intent(v.getContext(), MainActivity.class); //orrr??
                 startActivity(in1);
                 Context context = getApplicationContext();

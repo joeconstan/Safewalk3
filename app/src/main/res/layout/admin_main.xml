@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#060910"
+    >
+
+
+
+
+    <ImageView
+        android:layout_height="wrap_content"
+        android:src="@drawable/banner"
+        android:layout_marginBottom="250sp"
+        android:layout_width="wrap_content" />
+
+
+    <Button
+        android:layout_width="100sp"
+        android:layout_height="wrap_content"
+        android:text="See Walks"
+        android:background="@drawable/buttons"
+        android:textSize="12sp"
+        android:id="@+id/walkButton"
+        android:layout_marginBottom="68sp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="45sp"
+        />
+
+
+
+    <Button
+        android:layout_width="100sp"
+        android:layout_height="wrap_content"
+        android:text="Text Employees"
+        android:background="@drawable/buttons"
+        android:id="@+id/signinButton"
+        android:layout_alignTop="@+id/walkButton"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="68sp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="45sp"
+        />
+
+
+
+
+</RelativeLayout>
