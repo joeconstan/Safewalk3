@@ -24,6 +24,7 @@
         <activity android:name=".Buildous"></activity>
         <activity android:name=".LocationFind"></activity>
         <activity android:name=".AdminMain"></activity>
+        <activity android:name=".GetInfo"></activity>
 
 
     </application>

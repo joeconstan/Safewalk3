@@ -29,7 +29,7 @@ public class LocationFind extends AppCompatActivity {
                 Log.v(TAG, "Permission is granted");
             else {
                 Log.v(TAG, "Permission not granted. requesting...");
-                ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.ACCESS_FINE_LOCATION}, 1);
+                ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.ACCESS_FINE_LOCATION}, 1); //here
             }
         }
 
